@@ -52,6 +52,7 @@ const Input=()=>{
   return (
     <>
       <div className="todoapp">
+     <img src={`${process.env.PUBLIC_URL}/images/logo192.png`} alt="" />
       <div className="add-todo">
           <input type="text" onChange={inputTodo} value={input} /  ><span onClick={addTodo}>+</span>
       </div>
